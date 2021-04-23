@@ -64,7 +64,7 @@ const Home = () => {
         </div>
       </Content>
       <BUI />
-      <Content style={{ marginTop: '-18vmin', padding: '6rem 0' }}>
+      <Content style={{ padding: '6rem 0' }}>
         <div className={'section privacy-section'}>
           <h2>
             We built a privacy browser in a world where your personal data is
