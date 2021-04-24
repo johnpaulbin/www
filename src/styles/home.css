@@ -21,6 +21,14 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 772px) {
+  .section > h2,
+  .section > p {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+}
+
 .section > p {
   max-width: 30rem;
   margin: 0 auto;
