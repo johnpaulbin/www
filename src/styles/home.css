@@ -65,6 +65,23 @@
   flex-direction: column;
 }
 
+@media only screen and (max-width: 768px) {
+  .grid > div:first-of-type {
+    margin-top: 12rem;
+    line-height: 1.75rem;
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .grid > div:first-of-type {
+    margin-top: 6.5rem;
+    line-height: 1.75rem;
+    text-align: center;
+    padding: 0 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 1150px) {
   .grid > div:first-of-type {
     margin-top: 6.5rem;
@@ -213,11 +230,26 @@ body.dothq-is-home .grid-btns {
 body.dothq-is-home .grid > div:first-of-type > p {
   color: var(--white);
   opacity: 1;
-  max-width: calc(100% - 32vmin);
-  font-size: 1.6rem;
-  line-height: 1.35em;
-  font-weight: 400;
-  margin: 2.5rem 0;
+}
+
+@media only screen and (min-width: 769px) {
+  body.dothq-is-home .grid > div:first-of-type > p {
+    max-width: calc(100% - 32vmin);
+    font-size: 1.6rem;
+    line-height: 1.35em;
+    font-weight: 400;
+    margin: 2.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body.dothq-is-home .grid > div:first-of-type > p {
+    max-width: calc(100%);
+    font-size: 1.3rem;
+    line-height: 1.35em;
+    font-weight: 400;
+    margin: 2.5rem 0;
+  }
 }
 
 body.dothq-is-home .landing-showoff {
