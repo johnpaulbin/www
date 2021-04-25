@@ -471,6 +471,7 @@ input[type='email']:focus {
     top no-repeat;
   background-size: cover;
   height: auto;
+  padding-bottom: 20vh;
 }
 
 .hero-bg-black {

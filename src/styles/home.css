@@ -116,7 +116,7 @@
   margin-right: 22px;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1040px) {
   .landing-showoff {
     display: flex;
     opacity: 0;
@@ -127,7 +127,7 @@
   }
 }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 1039px) {
   .landing-showoff {
     display: none;
   }
@@ -153,6 +153,8 @@
   height: inherit;
   box-shadow: var(--shadow);
   max-width: 1703px;
+  min-width: 1025px;
+  margin-bottom: -90px;
 }
 
 #browser-wallpaper {
@@ -269,7 +271,7 @@ body.dothq-is-home .landing-showoff {
 body.dothq-is-home #browser-ui {
   position: unset;
   height: auto;
-  width: 100%;
+  width: 60%;
   z-index: inherit;
 }
 
